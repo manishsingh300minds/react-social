@@ -1,0 +1,49 @@
+.login-container{
+  display: flex;
+  height: 100vh !important;
+  position: relative;
+
+  .image-container{
+    background-color: skyblue;
+    width: 45%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    color: #e8f1fb;
+
+    .header{
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .user-inputs {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    .login-btn, .register-btn{
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #343a40;
+      color: #fff;
+    }
+    .register, .login {
+      margin-top: 20px;
+      font-size: 18px;
+      a{
+        text-decoration: none;
+        font-size: 18px;
+        color: #eeff00;
+      }
+    }
+  }
+}
